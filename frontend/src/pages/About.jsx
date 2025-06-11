@@ -24,7 +24,7 @@ function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/about_img.png" 
+                src="/frontend_images/about_img.png" 
                 alt="Our Story" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
@@ -92,7 +92,7 @@ function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
-                src="/src/assets/frontend_images/team1.png" 
+                src="/frontend_images/team1.png" 
                 alt="Team Member" 
                 className="w-full h-64 object-cover"
               />
@@ -106,7 +106,7 @@ function About() {
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
-                src="/src/assets/frontend_images/team2.png" 
+                src="/frontend_images/team2.png" 
                 alt="Team Member" 
                 className="w-full h-64 object-cover"
               />
@@ -120,7 +120,7 @@ function About() {
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
-                src="/src/assets/frontend_images/team3.png" 
+                src="/frontend_images/team3.png" 
                 alt="Team Member" 
                 className="w-full h-64 object-cover"
               />

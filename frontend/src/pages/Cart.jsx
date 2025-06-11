@@ -2,12 +2,11 @@ import React from 'react'
 import { useCart } from '../contextApi/CartContext'
 import { useProduct } from '../contextApi/ProductContex'
 import { FaTrash, FaArrowLeft } from 'react-icons/fa'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Cart() {
   const { cart, totalAmount, removeFromCart, updateQuantity } = useCart()
   const { currency } = useProduct()
-  const navigate = useNavigate();
 
   if (cart.length === 0) {
     return (
@@ -26,10 +25,6 @@ function Cart() {
       </div>
     )
   }
-
-  const handleCheckout = () => {
-    navigate('/place-order');
-  };
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -113,10 +108,7 @@ function Cart() {
               </div>
             </div>
 
-            <button 
-              onClick={handleCheckout}
-              className="w-full mt-6 bg-gray-900 text-white py-3 px-4 rounded-md hover:bg-gray-800 transition-colors"
-            >
+            <button className="w-full mt-6 bg-gray-900 text-white py-3 px-4 rounded-md hover:bg-gray-800 transition-colors">
               Proceed to Checkout
             </button>
 
