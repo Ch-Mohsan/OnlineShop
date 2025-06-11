@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { products } from '../assets/frontend_images/assets'
+import { products } from "../assets/frontend_images/assets";
 import { useLocation } from 'react-router-dom';
 
 const ProductContext = createContext()
