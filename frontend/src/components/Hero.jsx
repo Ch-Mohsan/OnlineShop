@@ -14,7 +14,7 @@ function Hero() {
       </div>
      </div>
      <div className=' w-full sm:w-1/2 h-full'>
-     <img src="src\assets\frontend_images\hero_img.png" alt="" className='h-full' />
+     <img src="\hero_img.png" alt="" className='h-full' />
      </div>
     </div>
   )
