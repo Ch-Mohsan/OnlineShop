@@ -24,7 +24,7 @@ function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/src/assets/frontend_images/about_img.png" 
+                src="/about_img.png" 
                 alt="Our Story" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
